@@ -1,12 +1,12 @@
 import {
   AcademicCapIcon,
+  ArrowDownTrayIcon,
+  BuildingOfficeIcon,
   CalendarIcon,
-  DownloadIcon,
   FlagIcon,
   MapIcon,
-  OfficeBuildingIcon,
   SparklesIcon,
-} from '@heroicons/react/outline';
+} from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
@@ -98,7 +98,7 @@ export const heroData: Hero = {
       href: 'https://drive.google.com/file/d/1bsPTI79H8_d_Z2j5EGVsSL6iEEvCO_Xg/view?usp=sharing',
       text: 'Resume',
       primary: true,
-      Icon: DownloadIcon,
+      Icon: ArrowDownTrayIcon,
     },
     {
       href: `#${SectionId.Contact}`,
@@ -124,7 +124,7 @@ Outside of work, I like experimenting with web scraping, exploring emerging tech
     {label: 'Nationality', text: 'Indian', Icon: FlagIcon},
     {label: 'Interests', text: 'Photography, Motorcycles', Icon: SparklesIcon},
     {label: 'Study', text: 'Chandigarh University', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Clarivate', Icon: OfficeBuildingIcon},
+    {label: 'Employment', text: 'Clarivate', Icon: BuildingOfficeIcon},
   ],
 };
 

@@ -6,6 +6,7 @@ import {IconProps} from '../components/Icon/Icon';
 export interface HomepageMeta {
   title: string;
   description: string;
+  children?: React.ReactNode;
   twitterCardType?: 'summary' | 'summary_large';
   twitterTitle?: string;
   twitterSite?: string;
@@ -30,7 +31,7 @@ interface HeroActionItem {
   href: string;
   text: string;
   primary?: boolean;
-  Icon?: (props: SVGProps<SVGSVGElement>) => JSX.Element;
+  Icon?: (props: SVGProps<SVGSVGElement>) => React.ReactNode;
 }
 
 /**
@@ -45,7 +46,7 @@ export interface About {
 export interface AboutItem {
   label: string;
   text: string;
-  Icon?: (props: SVGProps<SVGSVGElement>) => JSX.Element;
+  Icon?: (props: SVGProps<SVGSVGElement>) => React.ReactNode;
 }
 
 /**
@@ -54,7 +55,7 @@ export interface AboutItem {
 export interface Stat {
   title: string;
   value: number;
-  Icon?: (props: SVGProps<SVGSVGElement>) => JSX.Element;
+  Icon?: (props: SVGProps<SVGSVGElement>) => React.ReactNode;
 }
 
 /**
