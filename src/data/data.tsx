@@ -1,5 +1,4 @@
 import {
-  xxxxxxxxx
   AcademicCapIcon,
   CalendarIcon,
   DownloadIcon,
