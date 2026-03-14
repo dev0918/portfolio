@@ -71,15 +71,26 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Currently, I’m working at <strong className="text-stone-100"></strong> <strong className="text-stone-100">Clarivate </strong> , where I’ve gained over 1 year of experience, alongside completing my Master's in Computer Applications. With a total of more than 3 years of professional experience, I am highly proficient in Python, SQL databases, and UI development, with a strong command in Machine Learning, Artificial Intelligence, and PostgreSQL.
+        I'm <strong className="text-stone-100">Devanshu Kumar</strong>, currently working at 
+        <strong className="text-stone-100"> Clarivate</strong> as a Senior Software Engineer. 
+        I have over <strong className="text-stone-100">5 years of professional experience</strong> 
+        building scalable backend systems and data pipelines. My expertise includes 
+        <strong className="text-stone-100"> Python, SQL, PostgreSQL, and data processing</strong>, 
+        along with experience in distributed systems and cloud-based workflows.
       </p>
+      
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-      I am passionate about continuously learning and growing, especially in the fields of AI and Data Science, where I actively contribute to the community. My curiosity drives me to explore new technologies and innovate through data-driven insights.
+        I am passionate about continuous learning and growth, especially in the fields of 
+        <strong className="text-stone-100"> Artificial Intelligence and Data Science</strong>. 
+        I enjoy exploring new technologies and building data-driven solutions that improve 
+        system performance and reliability.
       </p>
+      
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time, I enjoy scraping data from various web pages, experimenting with <strong className="text-stone-100">New Technologies</strong> , and expanding my knowledge of emerging tools and frameworks. With a deep interest in data science, I am committed to leveraging my skills to solve real-world problems and drive innovation. 
-         <strong className="text-stone-100"> </strong>
-        <strong className="text-stone-100"> </strong>
+        In my free time, I enjoy <strong className="text-stone-100">web scraping</strong>, 
+        experimenting with <strong className="text-stone-100">new technologies</strong>, and 
+        learning about emerging tools and frameworks. With a strong interest in data science, 
+        I aim to leverage technology to solve real-world problems and build impactful solutions.
       </p>
     </>
   ),
@@ -103,12 +114,14 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Data and new technology captivate me. I enjoy applying my knowledge to practical situations. I was a 
-  national athlete, which demonstrates my commitment, tenacity, and concentration. I think these abilities will be useful to me 
-  in the designated work.`,
+  description: `I am a Senior Software Engineer with 4+ years of experience building scalable backend systems and data pipelines. I specialize in Python, SQL, PostgreSQL, and distributed data processing, with hands-on experience in developing reliable and efficient data-driven applications.
+
+I am passionate about learning new technologies and exploring advancements in Artificial Intelligence and Data Science. I enjoy solving complex problems, optimizing data workflows, and building systems that improve performance and scalability.
+
+Outside of work, I like experimenting with web scraping, exploring emerging technologies, and continuously expanding my knowledge to build impactful real-world solutions.`,
   aboutItems: [
-    {label: 'Location', text: 'Mohali, Punjab', Icon: MapIcon},
-    {label: 'Age', text: '23', Icon: CalendarIcon},
+    {label: 'Location', text: 'Noida, India', Icon: MapIcon},
+    {label: 'Age', text: '25', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Indian', Icon: FlagIcon},
     {label: 'Interests', text: 'Photography, Motorcycles', Icon: SparklesIcon},
     {label: 'Study', text: 'Chandigarh University', Icon: AcademicCapIcon},
@@ -261,12 +274,12 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'October 2023 - Current',
-    location: 'Current',
-    title: 'Software Engineer',
+    date: 'October 2023 - Present',
+    location: 'Noida, India',
+    title: 'Senior Software Engineer',
     content: (
       <p>
-        Developed a product from scratch which was used to logging, monitor and check the live status of the Kubernetes services and connected apps.
+        Designed and developed a monitoring platform from scratch to log, monitor, and track the real-time status of Kubernetes services and connected applications, enhancing system observability and operational efficiency.
       </p>
     ),
   },
@@ -281,7 +294,7 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: 'October 2021 - January 2022',
+    date: 'January 2021 - April 2022',
     location: 'Runnel.AI',
     title: 'DevOps Engineer',
     content: (
@@ -326,7 +339,7 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Location,
-      text: 'Mohali, Punjab',
+      text: 'Noida, India',
       href: 'https://goo.gl/maps/Nozy3G6ZhqCP7PCH6',
     },
     {
