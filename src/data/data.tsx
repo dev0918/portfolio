@@ -66,15 +66,15 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Devanshu Kumar.`,
+  name: `I'm Devanshu Kumar`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm <strong className="text-stone-100">Devanshu Kumar</strong>, currently working at 
+        Currently working at 
         <strong className="text-stone-100"> Clarivate</strong> as a Senior Software Engineer. 
-        I have over <strong className="text-stone-100">5 years of professional experience</strong> 
-        building scalable backend systems and data pipelines. My expertise includes 
-        <strong className="text-stone-100"> Python, SQL, PostgreSQL, and data processing</strong>, 
+        I have over <strong className="text-stone-100">5 years of professional experience </strong> 
+         building scalable backend systems and data pipelines. My expertise includes 
+        <strong className="text-stone-100"> Python, SQL, PostgreSQL and data processing</strong>, 
         along with experience in distributed systems and cloud-based workflows.
       </p>
       
@@ -95,7 +95,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: 'https://drive.google.com/file/d/1bsPTI79H8_d_Z2j5EGVsSL6iEEvCO_Xg/view?usp=sharing',
+      href: 'https://drive.google.com/file/d/1OUkAUHkF7oxD6DuiEuFcrs1q1c0rdh86/view?usp=sharing',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -113,9 +113,9 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I am a Senior Software Engineer with 4+ years of experience building scalable backend systems and data pipelines. I specialize in Python, SQL, PostgreSQL, and distributed data processing, with hands-on experience in developing reliable and efficient data-driven applications.
+  description: `I am a Senior Software Engineer with 4+ years of experience building scalable backend systems and data pipelines. I specialize in Python, SQL, PostgreSQL and distributed data processing, with hands-on experience in developing reliable and efficient data-driven applications.
 
-I am passionate about learning new technologies and exploring advancements in Artificial Intelligence and Data Science. I enjoy solving complex problems, optimizing data workflows, and building systems that improve performance and scalability.
+I am passionate about learning new technologies and exploring advancements in Artificial Intelligence and Data Science. I enjoy solving complex problems, optimizing data workflows and building systems that improve performance and scalability.
 
 Outside of work, I like experimenting with web scraping, exploring emerging technologies, and continuously expanding my knowledge to build impactful real-world solutions.`,
   aboutItems: [
